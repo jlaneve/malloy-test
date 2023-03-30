@@ -1,5 +1,6 @@
 source: imdb is table('duckdb:imdb.csv')
 
 query: imdb -> {
+    project: Title, Rating
     limit: 10
 }
