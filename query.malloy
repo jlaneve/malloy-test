@@ -1,0 +1,5 @@
+source: imdb is table('duckdb:imdb.csv')
+
+query: imdb -> {
+    limit: 10
+}
